@@ -37,8 +37,8 @@ console.log(tru);
 let fls = false;
 console.log(fls);
 
-let firstName = 'Andriy';
-let middleName = ' Igorovich'
+let firstName = 'Andriy ';
+let middleName = 'Igorovich'
 let lastName = 'Movchko '
 
 let person = (lastName + firstName + middleName)
@@ -52,11 +52,11 @@ console.log(typeof a);
 console.log(typeof b);
 console.log(typeof c);
 
-name = prompt('Your Name?');
+let name = prompt('Your Name?');
 console.log(name);
 
-midname = prompt('Your MiddleName?');
+let midname = prompt('Your MiddleName?');
 console.log(midname);
 
-age = prompt('Your age?')
+let age = prompt('Your age?')
 console.log(age);
