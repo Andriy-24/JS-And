@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34bf725-cd76-4740-8076-2b0c147f438b" name="Changes" comment="lesson 1 final">
-      <change afterPath="$PROJECT_DIR$/Lesson 2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson 2/main.js" afterDir="false" />
+    <list default="true" id="d34bf725-cd76-4740-8076-2b0c147f438b" name="Changes" comment="lesson 1 fix&#10;lesson 2 final">
+      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 3/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson 1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson 1/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Lesson 1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 1/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Lesson 1/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Lesson 2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson 2/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/Lessons/Lesson 2/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,20 +40,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/webstorm/HomeWork",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/webstorm/JS-And&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\webstorm\JS-And\Lessons" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,7 +70,9 @@
       <workItem from="1675245104665" duration="2073000" />
       <workItem from="1675247850539" duration="568000" />
       <workItem from="1675351415021" duration="15000" />
-      <workItem from="1675598735380" duration="9342000" />
+      <workItem from="1675598735380" duration="9598000" />
+      <workItem from="1675616775796" duration="144000" />
+      <workItem from="1675860778539" duration="3356000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 1 final">
       <created>1675247126305</created>
@@ -78,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675248355648</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lesson 1 fix&#10;lesson 2 final">
+      <created>1675608209801</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675608209801</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson 1 final" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 1 final" />
+    <MESSAGE value="lesson 1 fix&#10;lesson 2 final" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 1 fix&#10;lesson 2 final" />
   </component>
 </project>
