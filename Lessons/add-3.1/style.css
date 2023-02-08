@@ -1,0 +1,17 @@
+body{
+    background: silver;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    column-gap: 20px;
+    justify-content: center;
+}
+.user-box {
+    width: 400px;
+}
+.user-block{
+    text-align: center;
+    width: 400px;
+    background: aqua;
+    height: 250px;
+
+}
