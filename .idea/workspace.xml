@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34bf725-cd76-4740-8076-2b0c147f438b" name="Changes" comment="lesson 1 fix&#10;lesson 2 final">
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 3/add/add1/index.html" afterDir="false" />
+    <list default="true" id="d34bf725-cd76-4740-8076-2b0c147f438b" name="Changes" comment="lesson 3 final">
+      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 3/ADD/add1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 3/ADD/add1/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 3/ADD/add1/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -34,20 +38,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/mov4k/IdeaProjects/JS-And",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/webstorm/JS-And&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\webstorm\JS-And\Lessons" />
@@ -66,8 +71,9 @@
       <workItem from="1675351415021" duration="15000" />
       <workItem from="1675598735380" duration="9598000" />
       <workItem from="1675616775796" duration="144000" />
-      <workItem from="1675860778539" duration="3356000" />
-      <workItem from="1675875703273" duration="65000" />
+      <workItem from="1675860778539" duration="3583000" />
+      <workItem from="1675871306171" duration="198000" />
+      <workItem from="1675875955010" duration="27000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 1 final">
       <created>1675247126305</created>
@@ -90,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675608209801</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lesson 3 final">
+      <created>1675864175690</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675864175690</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +112,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson 1 final" />
     <MESSAGE value="lesson 1 fix&#10;lesson 2 final" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 1 fix&#10;lesson 2 final" />
+    <MESSAGE value="lesson 3 final" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 3 final" />
   </component>
 </project>
