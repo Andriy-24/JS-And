@@ -79,9 +79,24 @@ ul_1('lorem ipsum')
 function ul (a, b){
     document.write(`<ul>`)
     for (let i = 0; i < b; i++) {
-        const aElement = b[i];
         document.write(`<li>${a}</li>`)
     }
     document.write(`</ul>`)
 }
 ul('Lorem', 5)
+
+// - створити функцію яка приймає масив примітивних елементів (числа,стрінги,булеві), та будує для них список
+
+let primitive = [10, 5, 'lorem', 'ipsum', true, false,]
+
+function far(arr){
+    document.write(`<ul>`)
+    for (let i = 0; i < arr.length; i++) {
+        const ar = arr[i];
+        document.write(`<li>${ar}</li>`)
+    }
+    document.write(`</ul>`)
+}
+far(primitive)
+
+// - створити функцію яка приймає масив об'єктів з наступними полями id,name,age , та виводить їх в документ. Для кожного об'єкту окремий блок.
