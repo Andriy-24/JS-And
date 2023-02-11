@@ -18,12 +18,70 @@
 // - створити функцію яка обчислює та повертає площу прямокутника зі сторонами а і б
 
 function rectangle(a, b) {
-    return sum =  a * b;
+    return a * b;
 }
 console.log(rectangle(10, 20))
 
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
+
+const PI = 3.14;
 function circle(r){
-    return sum = (r^2);
+    return PI * (r*r);
 }
-console.log(circle(8))
+console.log(circle(2));
+
+// - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
+
+function cylinder(h, r){
+    return 2* PI* r* (h+ r);
+}
+console.log(cylinder(10, 4));
+
+// - створити функцію яка приймає масив та виводить кожен його елемент
+function f_users(arguments){
+    for (const argument of arguments) {
+        console.log(argument);
+    }
+}
+
+let users = [
+    {name: 'vasya', age: 31, status: false},
+    {name: 'petya', age: 30, status: true},
+    {name: 'kolya', age: 29, status: true},
+    {name: 'olya', age: 28, status: false},
+    {name: 'max', age: 30, status: true},
+    {name: 'anya', age: 31, status: false},
+    {name: 'oleg', age: 28, status: false},
+    {name: 'andrey', age: 29, status: true},
+    {name: 'masha', age: 30, status: true},
+    {name: 'olya', age: 31, status: false},
+    {name: 'max', age: 31, status: true}
+];
+f_users(users)
+
+// - створити функцію яка створює параграф з текстом. Текст задати через аргумент
+
+function text(par){
+    return document.write(`<p>${par}</p>`)
+}
+text('lorem')
+
+// - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий
+
+function ul_1(lir){
+    document.write(`<ul>`)
+    document.write(`<li>${lir}</li><li>${lir}</li><li>${lir}</li>`)
+    document.write(`</ul>`)
+}
+ul_1('lorem ipsum')
+
+// - створити функцію яка створює ul з трьома елементами li. Текст li задати через аргумент всім однаковий. Кількість li визначається другим аргументом, який є числовим (тут використовувати цикл)
+function ul (a, b){
+    document.write(`<ul>`)
+    for (let i = 0; i < b; i++) {
+        const aElement = b[i];
+        document.write(`<li>${a}</li>`)
+    }
+    document.write(`</ul>`)
+}
+ul('Lorem', 5)
