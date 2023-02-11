@@ -24,6 +24,6 @@ console.log(rectangle(10, 20))
 
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
 function circle(r){
-    return sum = r^2;
+    return sum = (r^2);
 }
-console.log(circle(2))
+console.log(circle(8))
