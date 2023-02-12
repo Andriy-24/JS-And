@@ -117,3 +117,35 @@ let users_2 = [
     {name: 'olya', age: 31,id: 10},
     {name: 'max', age: 31,id: 11}];
 us(users_2)
+document.write(`<hr>`)
+// - створити функцію яка повертає найменьше число з масиву
+function min_numArray(array){
+    min = array[0]
+    max = min;
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] > max) max = array[i];
+        if (array[i] < min) min = array[i];
+    }
+    document.write(max)
+    document.write(`<br>`)
+    document.write(min)
+}
+let arrayNumbers =  [15,6,7,-9,0,2,-14,-22,3,8,26,27]
+min_numArray(arrayNumbers)
+document.write(`<hr>`)
+// - створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
+function sum(array){
+    let su = 0;
+    for (const item of array) {
+        su += item;
+    }
+    return su;
+}
+let numebersArr = [1,2,3,4,5]
+document.write(`${sum(numebersArr)}`)
+document.write(`<hr>`)
+// - створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах
+// Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
+function swap(arr, index1,index2){
+
+}
