@@ -146,6 +146,23 @@ document.write(`${sum(numebersArr)}`)
 document.write(`<hr>`)
 // - створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах
 // Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
-function swap(arr, index1,index2){
-
+let arrs = [1,2,3,4,5,6,7]
+function swap(arr, index1,index2) {
+    temp1 = arr[index1];
+    arr[index1] = arr[index2];
+    arr[index2] = temp1;
 }
+swap(arrs,0,1)
+console.log(arrs)
+// - Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
+// Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
+
+function exchange(sumUAH, currencyValues, exchangeCurrency){
+    if (exchangeCurrency === 'USD'){
+        return  a = sumUAH / currencyValues;
+    }
+    if (exchangeCurrency === 'EUR'){
+        return b = sumUAH / currencyValues;
+    }
+}
+console.log(exchange(10000, 40,'USD'));
