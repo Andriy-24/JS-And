@@ -26,7 +26,7 @@ console.log(rectangle(10, 20))
 
 const PI = 3.14;
 function circle(r){
-    return PI * (r*r);
+    return PI * Math.pow(r,2);
 }
 console.log(circle(2));
 
