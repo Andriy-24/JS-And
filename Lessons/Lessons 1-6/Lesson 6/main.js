@@ -100,12 +100,11 @@ console.log(filmapArray);
 //         value: '', // '6'-'10', 'ace','jack','queen','king','joker'
 //     color:'', // 'red','black'
 // }
-
-let cards = [
-
+let cards = [{
+    cardSuit: ['spade','diamond','heart','clubs'],
+    ranks: ['ace','6', '7', '8', '9', '10', 'jack', 'queen', 'king','joker'],
+    color: ['red','black']}
 ]
-
-
 
 
 // =========================
