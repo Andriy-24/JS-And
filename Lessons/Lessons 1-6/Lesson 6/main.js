@@ -100,11 +100,71 @@ console.log(filmapArray);
 //         value: '', // '6'-'10', 'ace','jack','queen','king','joker'
 //     color:'', // 'red','black'
 // }
-let cards = [{
-    cardSuit: ['spade','diamond','heart','clubs'],
-    ranks: ['ace','6', '7', '8', '9', '10', 'jack', 'queen', 'king','joker'],
-    color: ['red','black']}
+
+let cards = [
+    { value: "Ace", suit: "Spades", color: "Black" },
+    { value: "2", suit: "Spades", color: "Black" },
+    { value: "3", suit: "Spades", color: "Black" },
+    { value: "4", suit: "Spades", color: "Black" },
+    { value: "5", suit: "Spades", color: "Black" },
+    { value: "6", suit: "Spades", color: "Black" },
+    { value: "7", suit: "Spades", color: "Black" },
+    { value: "8", suit: "Spades", color: "Black" },
+    { value: "9", suit: "Spades", color: "Black" },
+    { value: "10", suit: "Spades", color: "Black" },
+    { value: "Jack", suit: "Spades", color: "Black" },
+    { value: "Queen", suit: "Spades", color: "Black" },
+    { value: "King", suit: "Spades", color: "Black" },
+    { value: "Ace", suit: "Hearts", color: "Red" },
+    { value: "2", suit: "Hearts", color: "Red" },
+    { value: "3", suit: "Hearts", color: "Red" },
+    { value: "4", suit: "Hearts", color: "Red" },
+    { value: "5", suit: "Hearts", color: "Red" },
+    { value: "6", suit: "Hearts", color: "Red" },
+    { value: "7", suit: "Hearts", color: "Red" },
+    { value: "8", suit: "Hearts", color: "Red" },
+    { value: "9", suit: "Hearts", color: "Red" },
+    { value: "10", suit: "Hearts", color: "Red" },
+    { value: "Jack", suit: "Hearts", color: "Red" },
+    { value: "Queen", suit: "Hearts", color: "Red" },
+    { value: "King", suit: "Hearts", color: "Red" },
+    { value: "Ace", suit: "Diamonds", color: "Red" },
+    { value: "2", suit: "Diamonds", color: "Red" },
+    { value: "3", suit: "Diamonds", color: "Red" },
+    { value: "4", suit: "Diamonds", color: "Red" },
+    { value: "5", suit: "Diamonds", color: "Red" },
+    { value: "6", suit: "Diamonds", color: "Red" },
+    { value: "7", suit: "Diamonds", color: "Red" },
+    { value: "8", suit: "Diamonds", color: "Red" },
+    { value: "9", suit: "Diamonds", color: "Red" },
+    { value: "10", suit: "Diamonds", color: "Red" },
+    { value: "Jack", suit: "Diamonds", color: "Red" },
+    { value: "Queen", suit: "Diamonds", color: "Red" },
+    { value: "King", suit: "Diamonds", color: "Red" },
+    { value: "Ace", suit: "Clubs", color: "Black" },
+    { value: "2", suit: "Clubs", color: "Black" },
+    { value: "3", suit: "Clubs", color: "Black" },
+    { value: "4", suit: "Clubs", color: "Black" },
+    { value: "5", suit: "Clubs", color: "Black" },
+    { value: "6", suit: "Clubs", color: "Black" },
+    { value: "7", suit: "Clubs", color: "Black" },
+    { value: "8", suit: "Clubs", color: "Black" },
+    { value: "9", suit: "Clubs", color: "Black" },
+    { value: "10", suit: "Clubs", color: "Black" },
+    { value: "Jack", suit: "Clubs", color: "Black" },
+    { value: "Queen", suit: "Clubs", color: "Black" },
+    { value: "King", suit: "Clubs", color: "Black" }
 ]
+let spAce = cards.find(value => value.value === "Ace" && value.suit === "Spades")
+console.log(spAce);
+let allSix = cards.filter(value => value.value === "6")
+console.log(allSix);
+let redCards = cards.filter(value => value.color === "Red")
+console.log(redCards);
+let diaCards = cards.filter(value => value.suit === "Diamonds")
+console.log(diaCards);
+let clubsCards = cards.filter(value => value.suit === "Clubs" && value.value>= "9");
+console.log(clubsCards);
 
 
 // =========================
