@@ -163,7 +163,7 @@ let redCards = cards.filter(value => value.color === "Red")
 console.log(redCards);
 let diaCards = cards.filter(value => value.suit === "Diamonds")
 console.log(diaCards);
-let clubs = cards.filter(value => value.suit === "Clubs" && ["9", "10", "Jack", "Queen", "King"].includes(value.value))
+let clubs = cards.filter(value => value.suit === "Clubs" && ["9", "10", "Jack", "Queen", "King", "Ace"].includes(value.value))
 console.log(clubs);
 
 // =========================
