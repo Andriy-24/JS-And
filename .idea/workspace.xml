@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d34bf725-cd76-4740-8076-2b0c147f438b" name="Changes" comment="lesson 3 final">
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 3/ADD/add1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 3/ADD/add1/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lessons/Lesson 3/ADD/add1/style.css" afterDir="false" />
+    <list default="true" id="5e322745-6f72-4bdb-85af-89880d3b28c1" name="Changes" comment="lesson 6 final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -44,24 +41,30 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/webstorm/JS-And&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/webstorm/HomeWork&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\webstorm\JS-And\Lessons\Lesson 5" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\webstorm\JS-And\Lessons\Lessons 1-6" />
+      <recent name="D:\webstorm\JS-And\Lessons\Lessons 1-5" />
       <recent name="D:\webstorm\JS-And\Lessons" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d34bf725-cd76-4740-8076-2b0c147f438b" name="Changes" comment="" />
+      <changelist id="5e322745-6f72-4bdb-85af-89880d3b28c1" name="Changes" comment="lesson 3 final" />
       <created>1675245103390</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -74,6 +77,40 @@
       <workItem from="1675860778539" duration="3583000" />
       <workItem from="1675871306171" duration="198000" />
       <workItem from="1675875955010" duration="27000" />
+      <workItem from="1675883912606" duration="67000" />
+      <workItem from="1675884124060" duration="918000" />
+      <workItem from="1675952486326" duration="781000" />
+      <workItem from="1675959009397" duration="275000" />
+      <workItem from="1675964333745" duration="36000" />
+      <workItem from="1676031124516" duration="25000" />
+      <workItem from="1676068034659" duration="9000" />
+      <workItem from="1676070239043" duration="268000" />
+      <workItem from="1676115968740" duration="173000" />
+      <workItem from="1676138854192" duration="239000" />
+      <workItem from="1676139130578" duration="9000" />
+      <workItem from="1676215304486" duration="720000" />
+      <workItem from="1676216263189" duration="405000" />
+      <workItem from="1676219171271" duration="846000" />
+      <workItem from="1676224512465" duration="3468000" />
+      <workItem from="1676281351242" duration="2578000" />
+      <workItem from="1676284639109" duration="16000" />
+      <workItem from="1676284707153" duration="170000" />
+      <workItem from="1676289879866" duration="203000" />
+      <workItem from="1676300479193" duration="2613000" />
+      <workItem from="1676460804131" duration="698000" />
+      <workItem from="1676568740790" duration="413000" />
+      <workItem from="1676728276447" duration="19000" />
+      <workItem from="1676750885450" duration="3684000" />
+      <workItem from="1676760311006" duration="3646000" />
+      <workItem from="1676765115907" duration="867000" />
+      <workItem from="1676807521146" duration="3821000" />
+      <workItem from="1676838095133" duration="1031000" />
+      <workItem from="1676839352650" duration="5928000" />
+      <workItem from="1676899968475" duration="4410000" />
+      <workItem from="1676904500316" duration="25000" />
+      <workItem from="1676915608642" duration="68000" />
+      <workItem from="1676915870042" duration="150000" />
+      <workItem from="1676931102305" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 1 final">
       <created>1675247126305</created>
@@ -103,7 +140,105 @@
       <option name="project" value="LOCAL" />
       <updated>1675864175690</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lesson 3 final">
+      <created>1675883964539</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675883964539</updated>
+    </task>
+    <task id="LOCAL-00006" summary="lesson 3 final">
+      <created>1675964347385</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675964347385</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lesson 3 final">
+      <created>1676116035204</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676116035204</updated>
+    </task>
+    <task id="LOCAL-00008" summary="lesson 3 final">
+      <created>1676220005163</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676220005163</updated>
+    </task>
+    <task id="LOCAL-00009" summary="lesson 3 final">
+      <created>1676284359685</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676284359685</updated>
+    </task>
+    <task id="LOCAL-00010" summary="lesson 4 final">
+      <created>1676284373970</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676284373970</updated>
+    </task>
+    <task id="LOCAL-00011" summary="lesson 4 final">
+      <created>1676284791846</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676284791846</updated>
+    </task>
+    <task id="LOCAL-00012" summary="lesson 5 final">
+      <created>1676461494879</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676461494879</updated>
+    </task>
+    <task id="LOCAL-00013" summary="lesson 6">
+      <created>1676754722530</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676754722530</updated>
+    </task>
+    <task id="LOCAL-00014" summary="lesson 6">
+      <created>1676764637396</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1676764637396</updated>
+    </task>
+    <task id="LOCAL-00015" summary="lesson 6">
+      <created>1676765979921</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1676765979921</updated>
+    </task>
+    <task id="LOCAL-00016" summary="lesson 6">
+      <created>1676811838319</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1676811838319</updated>
+    </task>
+    <task id="LOCAL-00017" summary="lesson 6 final">
+      <created>1676904403952</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1676904403952</updated>
+    </task>
+    <task id="LOCAL-00018" summary="lesson 6 final">
+      <created>1676915668727</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1676915668727</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,6 +248,10 @@
     <MESSAGE value="lesson 1 final" />
     <MESSAGE value="lesson 1 fix&#10;lesson 2 final" />
     <MESSAGE value="lesson 3 final" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 3 final" />
+    <MESSAGE value="lesson 4 final" />
+    <MESSAGE value="lesson 5 final" />
+    <MESSAGE value="lesson 6" />
+    <MESSAGE value="lesson 6 final" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 6 final" />
   </component>
 </project>
