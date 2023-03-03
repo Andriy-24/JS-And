@@ -213,12 +213,26 @@ let coursesArray = [
         modules: ['html', 'css', 'js', 'mysql', 'mongodb', 'react', 'angular', 'aws', 'docker', 'git', 'sass']
     }
 ];
-
-
-
-
-
-
+let divMain = document.createElement('div')
+for (const item of coursesArray) {
+    let divTitle = document.createElement('div')
+    let divMonthD = document.createElement('div')
+    let divHourD = document.createElement('div')
+    let divModules = document.createElement('div')
+    divTitle.innerText = item.title
+    divMonthD.innerText = item.monthDuration
+    divHourD.innerText = item.hourDuration
+    let ul = document.createElement(`ul`)
+    for (const itemModul of item.modules) {
+        let modulesList = document.createElement('li')
+            modulesList.innerText = `${itemModul}`
+        ul.appendChild(modulesList)
+    }
+    divModules.appendChild(ul)
+    let br = document.createElement('br')
+    divMain.append(br,divTitle, divMonthD,divHourD,divModules)
+}
+document.body.appendChild(divMain)
 
 // ------------------
 //
