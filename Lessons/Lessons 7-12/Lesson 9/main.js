@@ -10,6 +10,9 @@ div.style.background = 'silver'
 div.innerText='lorem'
 document.body.appendChild(div)
 
+let divClone = div.cloneNode(true);
+document.body.appendChild(divClone)
+
 // - Є масив:
 //     ['Main','Products','About us','Contacts']
 // Зробити ul в середині якої будуть лежати елементи масиву (кожен в своєму li)
@@ -236,11 +239,80 @@ document.body.appendChild(divMain)
 
 // ------------------
 //
-//     - Створити довільний елемент з id = text та створити кнопку.Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".
+//     - Створити довільний елемент з id = text та створити кнопку.
+//     Використовуючи JavaScript,
+//     зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".
+let divNone = document.createElement('div')
+let h2 = document.createElement('h2')
+let but = document.createElement('button')
+h2.innerText = 'Lorem ipsum dolor sit amet.'
+but.innerText = 'Click'
+but.onclick = () =>{
+    h2.style.display = 'none';
+}
+divNone.append(h2,but)
+document.body.appendChild(divNone)
+
 //
+//     - створити інпут який приймає вік людини та кнопку яка підтверджує дію.
+//     При натисканні на кнопку зчитати інформацію
+//     з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
 //
-//     - створити інпут який приймає вік людини та кнопку яка підтверджує дію.При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18, та повідомити про це користувача
-//
-// *** Створити 3 інпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вміст ячеєк.
-//     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.
+let divIn18 = document.createElement('div')
+let input = document.createElement('input')
+let btn = document.createElement('button')
+let h3 = document.createElement('h3')
+input.placeholder = 'enter your age'
+input.type = 'number'
+btn.innerText = 'Click'
+btn.onclick = ()=>{
+    if (input.value < 18){
+        h3.innerText = 'sorry, but you are not 18'
+    }
+}
+divIn18.append(input, h3, btn)
+document.body.appendChild(divIn18)
+let hr = document.createElement('hr')
+document.body.appendChild(hr)
+// *** Створити 3 інпута та кнопку. Один визначає кількість рядків, другий
+// - кількість ячеєк, третій вміст ячеєк.
+//     При натисканні кнопки, вся ця інформація зчитується і формується табличка,
+//     з відповідним вмістом.
 // (Додатковачастина для завдання)
+
+let divTable = document.createElement('div')
+let input1 = document.createElement('input')
+let input2 = document.createElement('input')
+let input3 = document.createElement('input')
+let butt = document.createElement('button')
+input1.placeholder = 'enter the number of rows'
+input1.type = 'number'
+input2.placeholder = 'enter the number of cells'
+input2.type = 'number'
+input3.placeholder = 'enter the contents of the cells'
+input3.type = 'text'
+butt.innerText = 'Generate'
+butt.onclick = function () {
+    let table = document.createElement('table')
+    if (input1.value > 25 || input2.value > 25) {
+        document.createElement('h2')
+        h2.innerText = 'sorry for the many cells'
+        divTable.appendChild(h2)
+    } else {
+        divTable.appendChild(table)
+        for (let i = 0; i < input1.value; i++) {
+            let tr = document.createElement('tr')
+            table.appendChild(tr)
+            for (let j = 0; j < input2.value; j++) {
+                let td = document.createElement('td')
+                td.innerText = input3.value
+                tr.appendChild(td)
+            }
+        }
+    }
+}
+divTable.append(input1,input2,input3,butt)
+document.body.appendChild(divTable)
+
+
+
