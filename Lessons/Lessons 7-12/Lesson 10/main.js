@@ -51,15 +51,15 @@ document.body.appendChild(divPlus)
 // При натисканні prev виводяться попередні 10 об'єктів
 //
 // Створення масиву з 100 об'єктів
-const mass = [];
+let array = [];
 for (let i = 1; i <= 100; i++) {
-    mass.push({name: `lorem ${i}`});
+    array.push({name: `lorem ${i}`});
 }
 let startIndex = 0;
 const lastIndex = 10;
 function showMass(){
-    let displayMass = mass.slice(startIndex, startIndex + lastIndex)
-    const ul = document.getElementById('ul')
+    let displayMass = array.slice(startIndex, startIndex + lastIndex)
+    let ul = document.getElementById('ul')
     ul.innerHTML = '';
     for (let i = 0; i < displayMass.length; i++) {
         ul.innerHTML += `<li>${displayMass[i].name}</li>`
@@ -72,7 +72,7 @@ function prev(){
     }
 }
 function next(){
-    if (startIndex < mass.length - lastIndex){
+    if (startIndex < array.length - lastIndex){
         startIndex += lastIndex
         showMass()
     }
