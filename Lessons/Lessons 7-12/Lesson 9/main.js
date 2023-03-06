@@ -281,7 +281,7 @@ document.body.appendChild(hr)
 // (Додатковачастина для завдання)
 
 let divTable = document.createElement('div')
-let input1 = document.createElement('input')
+let input1 = document.createElement(    'input')
 let input2 = document.createElement('input')
 let input3 = document.createElement('input')
 let butt = document.createElement('button')

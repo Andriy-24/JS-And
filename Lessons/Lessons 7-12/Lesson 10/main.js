@@ -50,13 +50,33 @@ document.body.appendChild(divPlus)
 //     При натисканні next виводяться настпні 10 об'єктів
 // При натисканні prev виводяться попередні 10 об'єктів
 //
-
-
-
-
-
-
-
+// Створення масиву з 100 об'єктів
+const mass = [];
+for (let i = 1; i <= 100; i++) {
+    mass.push({name: `lorem ${i}`});
+}
+let startIndex = 0;
+const lastIndex = 10;
+function showMass(){
+    let displayMass = mass.slice(startIndex, startIndex + lastIndex)
+    const ul = document.getElementById('ul')
+    ul.innerHTML = '';
+    for (let i = 0; i < displayMass.length; i++) {
+        ul.innerHTML += `<li>${displayMass[i].name}</li>`
+    }
+}
+function prev(){
+    if (startIndex > 0){
+        startIndex -= lastIndex
+        showMass()
+    }
+}
+function next(){
+    if (startIndex < mass.length - lastIndex){
+        startIndex += lastIndex
+        showMass()
+    }
+}
 //
 // *** Створити 3 інпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.
 //     При натисканні кнопки, вся ця інформація зчитується і формується табличка, з відповідним вмістом.

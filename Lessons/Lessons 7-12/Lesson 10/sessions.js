@@ -1,2 +1,5 @@
 let data = localStorage.getItem('sessions')
-document.body.append(data)
+divData = document.createElement('div')
+    divData.innerText = data
+document.body.append(divData)
+divData.style.width = '700px'
